@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+dist/
+coverage/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.local
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
