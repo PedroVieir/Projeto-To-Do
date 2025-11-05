@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: projeto-to-do
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+    headers:
+      - for: /*
+        values:
+          Access-Control-Allow-Origin: https://projeto-to-do-git-main-pedros-projects-2a968b32.vercel.app
+          Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS
+          Access-Control-Allow-Headers: Content-Type, Authorization
