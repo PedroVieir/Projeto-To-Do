@@ -1,0 +1,87 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === Build Output ===
+dist/
+build/
+.cache/
+.tmp/
+
+# === Environment Files ===
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# === Logs ===
+logs
+*.log
+*.log.*
+log/
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE and Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# === Coverage ===
+coverage/
+*.lcov
+
+# === Vite / React ===
+*.tsbuildinfo
+vite.config.ts.timestamp-*
+vite.config.mjs.timestamp-*
+vite-env.d.ts
+
+# === Frontend Cache ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# === Backend Cache ===
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/logs/
+backend/tmp/
+
+# === Temporary Files ===
+*.tmp
+*.temp
+*.old
+*.bak
+*~
+
+# === Uploads or Assets (local only) ===
+uploads/
+public/uploads/
+storage/
+
+# === Mac and Windows Junk ===
+Icon?
+ehthumbs.db
+ehthumbs_vista.db
+$RECYCLE.BIN/
+
+# === Miscellaneous ===
+*.tgz
+*.tar.gz
+*.zip

@@ -11,7 +11,7 @@ export default function Groups() {
 
   const load = async () => {
     try {
-      const { data } = await api.get('/grupos')
+      const { data } = await api.get('/grupos/')
       setGroups(data.data || [])
     } catch (err) {
       setError('Falha ao carregar grupos')
@@ -27,7 +27,7 @@ export default function Groups() {
     setError('')
     if (!name.trim()) return
     try {
-      const { data } = await api.post('/grupos', { name: name.trim(), members: [] })
+      const { data } = await api.post('/grupos/', { name: name.trim(), members: [] })
       setGroups(prev => [data.data, ...prev])
       setName('')
     } catch (err) {

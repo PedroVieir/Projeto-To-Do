@@ -12,7 +12,7 @@ export default function TaskModal({ onClose, onSubmit }) {
   useEffect(() => {
     (async () => {
       try {
-        const { data } = await api.get('/grupos')
+        const { data } = await api.get('/grupos/')
         setGroups(data.data || [])
       } catch {}
     })()

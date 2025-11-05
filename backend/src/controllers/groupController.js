@@ -1,6 +1,6 @@
 const { body, validationResult } = require('express-validator');
 const Group = require('../models/groupModel');
-const TeamMember = require('../models/memberModel');
+const TeamMember = require('../models/membeModel');
 
 // Criação de grupo
 async function createGroup(req, res) {
