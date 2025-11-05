@@ -13,6 +13,7 @@ const app = express();
 // ✅ Middlewares essenciais
 const allowedOrigins = [
   'https://projeto-to-do-git-main-pedros-projects-2a968b32.vercel.app',
+  'https://projeto-to-do-six.vercel.app',
   'http://localhost:5173', // para desenvolvimento local
 ];
 
