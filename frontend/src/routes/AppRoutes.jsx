@@ -8,7 +8,7 @@ import Register from '@/pages/Register'
 
 function RequireAuth() {
   const token = localStorage.getItem('token')
-  return token ? <Outlet/> : <Navigate to="/login" replace />
+  return token ? <Outlet/> : <Navigate to="/" replace />
 }
 
 const router = createBrowserRouter([
