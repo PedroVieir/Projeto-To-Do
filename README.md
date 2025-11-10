@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Visão Geral
+## Visão Geral
 
 **ToDo+** é uma aplicação **full-stack** moderna desenvolvida com **React**, **Node.js** e **MongoDB**.  
 Seu objetivo é oferecer uma experiência fluida e responsiva para o gerenciamento de tarefas, com autenticação segura e interface intuitiva.
@@ -19,7 +19,7 @@ O projeto aplica boas práticas de arquitetura, componentização e design, inte
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 ### Frontend
 - **Gerenciamento de Tarefas:** criação, edição, exclusão e marcação de concluídas.  
@@ -39,7 +39,7 @@ O projeto aplica boas práticas de arquitetura, componentização e design, inte
 
 ---
 
-## 🧩 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 | Tecnologia | Descrição |
@@ -67,7 +67,7 @@ O projeto aplica boas práticas de arquitetura, componentização e design, inte
 ## 🗂 Estrutura do Projeto
 
 ```bash
-📦 ToDo+
+ 
 ├── frontend/
 │   ├── src/
 │   │   ├── components/     # Botões, formulários, listas e animações
@@ -90,7 +90,7 @@ O projeto aplica boas práticas de arquitetura, componentização e design, inte
     ├── server.js           # Ponto de entrada da aplicação
     └── package.json
 
-    ## ⚙️ Instalação e Execução
+    ## Instalação e Execução
 
 Execute os comandos abaixo para clonar o repositório, instalar as dependências do frontend e backend, configurar o ambiente e iniciar o projeto localmente:
 
